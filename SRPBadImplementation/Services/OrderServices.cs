@@ -13,9 +13,14 @@ namespace SRPBadImplementation.Services
             //Code to create order entity
             Console.WriteLine("Creatign Order");
 
+            //Calling SaveData method from CreateOrder method 
             SaveData();
 
+            //Calling SendMail method from CreateOrder method 
+
             SendMail();
+
+            
         }
 
         public void SaveData()
